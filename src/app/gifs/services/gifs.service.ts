@@ -58,7 +58,7 @@ export class GifsService {
 
     const params = new HttpParams()
       .set('api_key', GYPFY_API_KEY)
-      .set('limit', '10')
+      .set('limit', '12')
       .set('q', tag);
 
     this.http
